@@ -1,0 +1,100 @@
+header {
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+.input-box {
+}
+.input-box input {
+  padding: 6px 8px;
+  min-width: 400px;
+  border-radius: 3px;
+  background-color: white;
+  border-radius: 5px;
+}
+.box44 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.filter-box {
+  position: relative;
+}
+.filter-box p {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.expand {
+  font-size: 18px;
+}
+.filter-box ul {
+  position: absolute;
+  background-color: rgb(246 245 245);
+  min-width: 8rem;
+  top: 30px;
+  border-radius: 6px;
+}
+.filter-box ul li {
+  list-style: none;
+  cursor: pointer;
+  padding: 7px 8px;
+}
+.filter-box ul li:hover {
+  background-color: rgb(214, 212, 212);
+}
+.filter2 {
+  display: none;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .filter {
+    display: none !important;
+  }
+  .filter2 {
+    display: flex;
+  }
+
+  .box {
+    width: 47% !important;
+  }
+}
+@media screen and (max-width: 425px) {
+  .filter {
+    display: none;
+  }
+  .filter2 {
+    display: flex;
+  }
+  .input-box input {
+    min-width: 200px;
+  }
+  .box {
+    width: 100% !important;
+  }
+  .heading {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .box {
+    width: 30% !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .heading {
+    font-size: 16px;
+  }
+}
