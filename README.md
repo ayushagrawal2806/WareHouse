@@ -26,4 +26,4 @@ Redux: Utilized for state management to manage application-level data.
 HTML5, CSS: Used for layout design following basic conventions.
 JavaScript: Utilized for application logic and functionality implementation.
 
-## Hosted-Link : [https://warehouse-lemon-nine.vercel.app]
+## Hosted-Link : [https://ware-house-three.vercel.app/]
